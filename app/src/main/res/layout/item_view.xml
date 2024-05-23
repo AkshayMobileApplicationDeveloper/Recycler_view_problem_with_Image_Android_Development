@@ -29,6 +29,7 @@
             </RelativeLayout>
             <TextView
                 android:id="@+id/idTextViewName"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Neha Kumari Pandey "
@@ -52,6 +53,7 @@
                 android:textColor="@color/design_default_color_primary_dark"
                 android:textSize="16dp"
                 android:textStyle="bold" />
+
 
             <TextView
                 android:id="@+id/idTextViewMsg"
