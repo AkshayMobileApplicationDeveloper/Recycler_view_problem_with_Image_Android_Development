@@ -1,19 +1,21 @@
 package com.app.recycler;
 
-public class item {
+public class Item {
     int idImageViewPro;
     String idTextViewName;
     String idTextViewContact;
     String idTextViewMsg;
     String idTextTiming;
 
-    public item(int idImageViewPro, String idTextViewName, String idTextViewContact, String idTextViewMsg, String idTextTiming) {
+
+    public Item(int idImageViewPro, String idTextViewName, String idTextViewContact, String idTextViewMsg, String idTextTiming) {
         this.idImageViewPro = idImageViewPro;
         this.idTextViewName = idTextViewName;
         this.idTextViewContact = idTextViewContact;
         this.idTextViewMsg = idTextViewMsg;
         this.idTextTiming = idTextTiming;
     }
+
 
     public int getIdImageViewPro() {
         return idImageViewPro;
